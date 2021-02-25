@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrencs/frc5800app_backend.git"
+  },
+  "author": "André Corrêa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrencs/frc5800app_backend/issues"
+  },
+  "homepage": "https://github.com/andrencs/frc5800app_backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
